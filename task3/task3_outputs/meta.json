@@ -1,5 +1,0 @@
-{
-  "backend": "medclip",
-  "num_images": 624,
-  "embedding_dim": 512
-}
