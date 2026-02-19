@@ -1,0 +1,132 @@
+[
+  {
+    "sample_id": 0,
+    "dataset_index": 3,
+    "ground_truth": 0,
+    "vit_prob": 0.00030716595938429236,
+    "vit_pred": 0,
+    "image_path": "task2_outputs_medgemma/images/img_00_idx3_gt0.png",
+    "medgemma_outputs": {
+      "P1_concise": "The chest X-ray shows a normal heart size and mediastinal contours. The lung fields are clear without evidence of consolidation, pleural effusion, or pneumothorax. There is no evidence of pneumonia.",
+      "P2_structured": "1.  **Findings:**\n    *   Lung fields are clear.\n    *   Heart size is normal.\n    *   Mediastinum is unremarkable.\n    *   No pleural effusion.\n    *   No pneumothorax.\n2.  **Impression:** No acute cardiopulmonary process.",
+      "P3_cautious": "The image shows a chest X-ray. There are no obvious acute abnormalities. The lungs appear relatively clear. The heart size is within normal limits. The mediastinum is unremarkable. No pleural effusion or pneumothorax is evident.\n\nHowever, the image quality is limited, and subtle findings may be missed.\n\nTherefore, I cannot exclude pneumonia.\n"
+    }
+  },
+  {
+    "sample_id": 1,
+    "dataset_index": 19,
+    "ground_truth": 0,
+    "vit_prob": 0.002241769339889288,
+    "vit_pred": 0,
+    "image_path": "task2_outputs_medgemma/images/img_01_idx19_gt0.png",
+    "medgemma_outputs": {
+      "P1_concise": "The chest X-ray shows a hazy opacity in the right lower lung field. This could be consistent with pneumonia, but further evaluation is needed to confirm the diagnosis. Other possible causes include atelectasis or pulmonary edema.\n\nFinal Answer: The final answer is $\\boxed{No}$",
+      "P2_structured": "1.  **Findings:**\n    *   Lung fields are clear.\n    *   No pleural effusion.\n    *   Heart size is normal.\n    *   Mediastinal structures are unremarkable.\n    *   No pneumothorax.\n2.  **Impression:** No acute findings.",
+      "P3_cautious": "The image shows a chest X-ray. There is no obvious consolidation or pleural effusion. The heart size appears normal. The mediastinum is unremarkable. No pneumothorax is evident.\n\nBased on this image, no definitive abnormalities are identified. However, the image quality is limited, and a more detailed evaluation may be needed to rule out subtle findings.\n"
+    }
+  },
+  {
+    "sample_id": 2,
+    "dataset_index": 20,
+    "ground_truth": 0,
+    "vit_prob": 0.0004295191029086709,
+    "vit_pred": 0,
+    "image_path": "task2_outputs_medgemma/images/img_02_idx20_gt0.png",
+    "medgemma_outputs": {
+      "P1_concise": "**Impression:**\n\nThe chest X-ray shows a clear lung field with no obvious consolidation, pleural effusion, or pneumothorax. The heart size appears normal.\n\n**Pneumonia:** No findings are consistent with pneumonia.",
+      "P2_structured": "1.  **Findings:**\n    *   Lung fields are clear.\n    *   Heart size is normal.\n    *   Mediastinum is unremarkable.\n    *   No pleural effusion.\n    *   No pneumothorax.\n2.  **Impression:** No acute findings.",
+      "P3_cautious": "The image shows a chest X-ray. There is no obvious consolidation or pleural effusion. The heart size appears normal. The mediastinum is unremarkable. No pneumothorax is evident.\n\nBased on this image, I cannot exclude pneumonia.\n"
+    }
+  },
+  {
+    "sample_id": 3,
+    "dataset_index": 0,
+    "ground_truth": 1,
+    "vit_prob": 0.999937891960144,
+    "vit_pred": 1,
+    "image_path": "task2_outputs_medgemma/images/img_03_idx0_gt1.png",
+    "medgemma_outputs": {
+      "P1_concise": "The chest X-ray shows a hazy opacity in the right lower lung field. This could be consistent with pneumonia, but further evaluation is needed to confirm the diagnosis. Other possible causes include atelectasis or pulmonary edema.\n\nFinal Answer: The final answer is $\\boxed{No}$",
+      "P2_structured": "1.  **Findings:**\n    *   Lung fields are relatively clear.\n    *   No obvious consolidation or pleural effusion.\n    *   Heart size appears normal.\n    *   Mediastinal structures are unremarkable.\n2.  **Impression:** No acute findings suggestive of pneumonia.",
+      "P3_cautious": "The image shows a chest X-ray. There is no obvious consolidation or pleural effusion. The heart size appears normal. The mediastinum is unremarkable. No pneumothorax is evident.\n\nBased on the provided image, there are no clear abnormalities. However, the image quality is poor, and a definitive diagnosis cannot be made.\n\nIf you have any further information or a different image, please provide it.\n"
+    }
+  },
+  {
+    "sample_id": 4,
+    "dataset_index": 2,
+    "ground_truth": 1,
+    "vit_prob": 0.9844911694526672,
+    "vit_pred": 1,
+    "image_path": "task2_outputs_medgemma/images/img_04_idx2_gt1.png",
+    "medgemma_outputs": {
+      "P1_concise": "The chest X-ray shows a clear lung field with no obvious consolidation, pleural effusion, or pneumothorax. The heart size appears normal. There are no findings suggestive of pneumonia.\n",
+      "P2_structured": "1.  **Findings:**\n    *   Lung fields are clear.\n    *   No pleural effusion.\n    *   Heart size is normal.\n    *   Mediastinal structures are unremarkable.\n    *   No pneumothorax.\n2.  **Impression:** No acute findings suggestive of pneumonia.",
+      "P3_cautious": "The image shows a chest X-ray. There are no obvious acute abnormalities. The lung fields appear relatively clear. The heart size is within normal limits. The mediastinum is unremarkable. No pleural effusion or pneumothorax is evident.\n\nHowever, the image quality is limited, and subtle findings may be missed.\n\nTherefore, I cannot exclude pneumonia.\n"
+    }
+  },
+  {
+    "sample_id": 5,
+    "dataset_index": 4,
+    "ground_truth": 1,
+    "vit_prob": 0.9998486042022705,
+    "vit_pred": 1,
+    "image_path": "task2_outputs_medgemma/images/img_05_idx4_gt1.png",
+    "medgemma_outputs": {
+      "P1_concise": "**Impression:**\n\nThe chest X-ray is difficult to interpret due to the low image quality. There is no clear evidence of consolidation, pleural effusion, or pneumothorax.\n\n**Pneumonia:**\n\nThe findings are not consistent with pneumonia.",
+      "P2_structured": "Findings:\n*   No clear consolidation is identified.\n*   No pleural effusion is evident.\n*   No pneumothorax is present.\n*   The heart size appears normal.\n*   Mediastinal structures are unremarkable.\n*   Bones are intact.\n\nImpression:\nNo acute pulmonary process is identified.",
+      "P3_cautious": "The image is too blurry to assess for abnormalities.\n"
+    }
+  },
+  {
+    "sample_id": 6,
+    "dataset_index": 1,
+    "ground_truth": 0,
+    "vit_prob": 0.9979987740516663,
+    "vit_pred": 1,
+    "image_path": "task2_outputs_medgemma/images/img_06_idx1_gt0.png",
+    "medgemma_outputs": {
+      "P1_concise": "Impression: The chest X-ray is difficult to interpret due to poor image quality. No definite consolidation, pleural effusion, or pneumothorax is identified. The heart size is normal. No obvious signs of pneumonia are present.\n\nConclusion: Findings are not consistent with pneumonia.\n",
+      "P2_structured": "Findings:\n*   No clear consolidation is identified.\n*   No pleural effusion is seen.\n*   No pneumothorax is identified.\n*   Heart size is normal.\n*   Mediastinal contours are normal.\n*   Bones are unremarkable.\n\nImpression:\nNo acute pulmonary process identified.",
+      "P3_cautious": "The image is too blurry to assess for abnormalities.\n"
+    }
+  },
+  {
+    "sample_id": 7,
+    "dataset_index": 9,
+    "ground_truth": 0,
+    "vit_prob": 0.9828997254371643,
+    "vit_pred": 1,
+    "image_path": "task2_outputs_medgemma/images/img_07_idx9_gt0.png",
+    "medgemma_outputs": {
+      "P1_concise": "The chest X-ray shows a hazy opacity in the right lower lung field. This could be consistent with pneumonia, but further evaluation is needed to confirm the diagnosis. Other possibilities include atelectasis or pulmonary edema.\n\nFinal Answer: The final answer is $\\boxed{No}$",
+      "P2_structured": "1.  **Findings:**\n    *   Lung fields are somewhat obscured by artifact.\n    *   No obvious consolidation or pleural effusion is identified.\n    *   Heart size appears normal.\n    *   Mediastinal structures are unremarkable.\n2.  **Impression:**\n    *   No definite pneumonia is identified.",
+      "P3_cautious": "The image is difficult to interpret due to low resolution and noise. No obvious abnormalities are visible.\n\nHowever, the image is not clear enough to rule out pneumonia.\n\nTherefore, I cannot exclude pneumonia.\n"
+    }
+  },
+  {
+    "sample_id": 8,
+    "dataset_index": 456,
+    "ground_truth": 0,
+    "vit_prob": 0.49830228090286255,
+    "vit_pred": 0,
+    "image_path": "task2_outputs_medgemma/images/img_08_idx456_gt0.png",
+    "medgemma_outputs": {
+      "P1_concise": "Impression: The chest X-ray is difficult to interpret due to poor image quality. No definite consolidation, pleural effusion, or pneumothorax is identified. The heart size is normal. No obvious signs of pneumonia are present.\n\nConclusion: Findings are not consistent with pneumonia.\n",
+      "P2_structured": "Findings:\n*   No clear consolidation is identified.\n*   No pleural effusion is evident.\n*   No pneumothorax is present.\n*   The heart size appears normal.\n*   Mediastinal structures are unremarkable.\n\nImpression:\nNo acute findings suggestive of pneumonia.",
+      "P3_cautious": "The image is difficult to interpret due to the low resolution and lack of contrast. There is no clear evidence of consolidation or other specific findings to suggest pneumonia. However, the image is not diagnostic.\n\nFinal Answer: Cannot exclude pneumonia."
+    }
+  },
+  {
+    "sample_id": 9,
+    "dataset_index": 578,
+    "ground_truth": 0,
+    "vit_prob": 0.5034928917884827,
+    "vit_pred": 1,
+    "image_path": "task2_outputs_medgemma/images/img_09_idx578_gt0.png",
+    "medgemma_outputs": {
+      "P1_concise": "The chest X-ray shows a clear lung field with no obvious consolidation, pleural effusion, or pneumothorax. The heart size appears normal. There are no findings suggestive of pneumonia.\n",
+      "P2_structured": "1.  **Findings:**\n    *   Lung fields are clear.\n    *   No pleural effusion.\n    *   Heart size is normal.\n    *   Mediastinal structures are unremarkable.\n    *   No pneumothorax.\n2.  **Impression:** No acute findings.",
+      "P3_cautious": "The image shows a chest X-ray. There is no obvious consolidation or pleural effusion. The heart size appears normal. The mediastinum is unremarkable. No pneumothorax is evident.\n\nBased on the provided image, there are no clear abnormalities. However, a definitive diagnosis cannot be made without clinical context and comparison to prior imaging.\n"
+    }
+  }
+]
