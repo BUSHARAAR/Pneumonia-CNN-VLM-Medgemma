@@ -59,36 +59,6 @@ Build a semantic image retrieval system using medical embeddings and a vector da
 
 
 
-## Repository Structure
----
-├── task1/
-│ ├── README.md
-│ ├── pipeline.py
-│ ├── eval.py
-│ ├── models_zoo.py
-│ └── plots/
-│
-├── task2/
-│ ├── README.md
-│ ├── task2_medgemma.py
-│ ├── task2 report generation.md
-│ └── outputs/
-│ ├── task2_samples.json
-│ └── images/
-│
-├── task3/
-│ ├── README.md
-│ └── task3_outputs/
-│ ├── faiss_index.bin
-│ ├── embeddings.npy
-│ ├── labels.npy
-│ ├── retrieval_figures/
-│ └── task3 retrieval system.md
-│
-└── README.md
-
----
-
 ## Reproducibility
 - Python, PyTorch, Hugging Face Transformers
 - Task-2 requires Hugging Face access to MedGemma (public gated model)
