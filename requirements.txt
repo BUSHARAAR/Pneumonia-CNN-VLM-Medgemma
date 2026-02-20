@@ -1,0 +1,49 @@
+# -----------------------------
+# Core scientific stack
+# -----------------------------
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+scikit-learn>=1.2
+matplotlib>=3.7
+seaborn>=0.12
+tqdm>=4.65
+
+# -----------------------------
+# Deep Learning (PyTorch)
+# -----------------------------
+torch>=2.1
+torchvision>=0.16
+torchaudio>=2.1
+
+# -----------------------------
+# Vision & Medical Imaging
+# -----------------------------
+Pillow>=9.5
+opencv-python>=4.8
+
+# -----------------------------
+# Model Zoo / Architectures
+# -----------------------------
+timm>=0.9.8
+einops>=0.7.0
+
+# -----------------------------
+# Transformers & VLMs (Task 2)
+# -----------------------------
+transformers>=4.40
+accelerate>=0.27
+sentencepiece>=0.1.99
+protobuf>=4.23
+huggingface-hub>=0.20
+
+# -----------------------------
+# CLIP / Medical Embeddings (Task 3)
+# -----------------------------
+faiss-cpu>=1.7.4
+
+# -----------------------------
+# Utilities
+# -----------------------------
+pyyaml>=6.0
+requests>=2.31
